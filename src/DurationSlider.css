@@ -1,0 +1,41 @@
+/* Styles for the slider component */
+
+.slider-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.slider {
+    height: 10px;
+    width: 100%;
+    background-color: #b4b4b4;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Styles for the slider thumb */
+.slider .thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #000000;
+    cursor: grab;
+   
+    margin-top: -5px;
+}
+
+
+
+.duration-value input{
+    width: 30px;
+    padding-left:16px;
+    margin-top: 20px;
+    border-radius: 2px;
+    background-color: #eee;
+    border:  2px solid black;
+    margin-bottom: 5px;
+    
+    
+}

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth; 
+}
+body {
+	font-family: "Montserrat",sans-serif;
+    color: #000;
+}
+
+
+
+.overlax{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98.3%;
+    background-color: rgba(0,0,0,.3);
+    z-index: 0;
+}
+
+.Courses-videos-section-text{
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	line-height: 500%;
+	padding-top: 70px;
+	background-color: rgb(247, 245, 245);
+	padding-bottom: 60px;
+	
+}
+.Courses-videos-section-text h1{
+	font-size: 60px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	
+}
+
+.Courses-videos-section-text p{
+
+	font-size: 20px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	letter-spacing: 2px;
+	font-style: italic;
+	text-transform: capitalize;
+	
+}
+.yoga-thumbnail {
+	display: block;
+	width: 70%;
+	text-decoration: none;
+	margin-bottom: 20px;
+	margin: 100px;
+
+  }
+  
+  .thumbnail-image {
+	position: relative;
+  }
+  
+  .thumbnail-image img {
+	width: 100%;
+	height: 75%;
+  }
+  
+  .play-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border: white 2px solid;
+  }
+  
+  .play-icon i {
+	font-size: 14px;
+	color: #ffffff;
+  }
+ 
+
+
+
+   .yoga-details {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 2%;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+  }
+
+  .yoga-type {
+	
+	top: 0;
+	left: 0;
+	position: absolute;
+	font-size: 1em;
+	background-color: rgb(0, 0, 0 ,.6);
+	color: #ffffff;
+	width: fit-content;
+	height: 15%;
+	text-align: center;
+	padding-top: 6px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+  }
+  
+  .yoga-level {
+	color: #fff;
+	top: 88%;
+	position: absolute;
+	font-size: 1.2em;
+	letter-spacing: 1.3px;
+	text-transform: capitalize;
+	font-weight: 500;
+  }
+  
+
+
+
+
+  .yoga-duration {
+	position: absolute;
+	top: 88%;
+	right: 2%;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #ffffff;
+	letter-spacing: 1.5px;
+  }
+
+.video-info{
+	text-align: center;
+	width: 70%;
+	background-color: rgb(255, 255, 255);
+	margin-left: 100px;
+	line-height: 200%;
+	margin-top: -80px;
+	
+}
+.video-info li{
+	list-style: none;
+}
+
+.video-title{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	letter-spacing: 1.4px;
+}
+.video-playlist{
+	text-transform: uppercase;
+	font-size: 15px;
+	color:#363636 ;
+	letter-spacing: 1.4px;
+}
+.video-instructor{
+	font-weight: 600;
+	letter-spacing: 1.4px;
+	text-transform: capitalize;
+}
+
+
+.big-container{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgb(255, 255, 255);
+	margin-left: 0;
+	padding-left: 80px;
+	padding-right: -60px;
+	width: fit-content;
+	
+	
+}
+.thumb-container{
+	margin-left:-110px;
+	width: 42%;
+	
+}
+

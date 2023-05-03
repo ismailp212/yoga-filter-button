@@ -1,0 +1,224 @@
+
+
+
+
+
+.form-container{
+  display: block;
+  transform: translate(10%,10%);
+  width: 50%;
+  border:solid black 2px;
+  padding: 50px;
+  border-radius: 10px;
+  margin-bottom: 250px;
+  float: left;
+  background-color: #ffffff;
+  margin-left: -40px;
+  
+
+}
+
+.form-row {
+  margin: 10px 0;
+  border: 1px solid rgb(184, 184, 184);
+  padding: 30px;
+  border-radius: 20px;
+  
+}
+
+.form-row label {
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+
+.form-row input {
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #575757;
+}
+
+
+.form-row textarea{
+  width: 95%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #575757;}
+
+.form-row input[type="radio"] {
+  margin-right: 10px;
+  display: block;
+  position: absolute;
+  width: 40%;
+}
+
+p{
+  text-align: start;
+  opacity: 0.7;
+  font-size: 16px;
+}
+.niveu , .language{
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+
+
+.form-row-level label{
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-left:40px ;
+  
+}
+
+.form-row-level input[type="radio"] {
+  margin-right: 10px;
+  display: block;
+  position: absolute;
+  width: 40%;
+}
+
+
+.form-row-lang label{
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-left:40px ;
+  
+}
+
+.form-row-lang input[type="radio"] {
+  margin-right: 10px;
+  display: block;
+  position: absolute;
+  width: 40%;
+}
+
+
+/* this is a style for adding a border to the radio inputes type  */ 
+.lang-vid{   
+  margin: 10px 0;
+  border: 1px solid rgb(184, 184, 184);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+
+.form-row input[type="file"] {
+  border: none;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*THIS STYLES ARE FOR THE UPLOAD BUTTONS THE VIDEO AND THE THUMBNAIL*/
+.custom-file-upload {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-file-upload input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.custom-file-upload label {
+  display: block;
+  padding: 8px 16px;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 0.5px;
+}
+
+.custom-file-upload label:hover {
+  background-color: #b4b4b4;
+}
+
+.custom-file-upload input[type="file"]:focus + label {
+  outline: 2px solid #f44336;
+}
+
+.radio-group label{
+  font-weight: 500;
+}
+
+/*THE SUBMIT BUTTON STYLE*/
+
+.btn-submit{
+  margin-top: 40px;
+}
+
+.btn-submit button{
+  padding: 10px 30px 10px 30px;
+  font-size: 17px;
+  letter-spacing: 1.8px;
+  font-weight: 100;
+  color: #fff;
+  background-color: black;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+
+.btn-submit button:hover{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.uplaod-page-logo-container{
+  
+  width: fit-content;
+  float: right;
+  transform: translate(-2%,150%);
+  max-width: 490px;
+  
+}
+.uplaod-page-logo-container{
+  font-size: 50px;
+}
+.uplaod-page-logo-container h1{
+  text-transform: uppercase;
+}
+.uplaod-page-logo-container p{
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}
+
+
+.btn-live{
+  background-color: #000000;
+  padding: 10px 70px 10px 70px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.btn-live:hover{
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
